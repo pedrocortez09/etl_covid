@@ -1,0 +1,20 @@
+# 🚫 Ignorar a pasta do ambiente virtual (para não enviar arquivos do ambiente virtual)
+etl_covid/
+
+# 🚫 Ignorar arquivos compilados do Python
+*.pyc
+__pycache__/
+
+# 🚫 Ignorar arquivos de logs
+scripts/logs/
+*.log
+
+# 🚫 Ignorar banco de dados SQLite (caso não queira enviar dados)
+*.db
+*.sqlite3
+
+# 🚫 Ignorar credenciais sensíveis (exemplo: tokens e senhas)
+rundeck/
+
+# 🚫 Ignorar credenciais sensíveis (exemplo: tokens e senhas)
+data/
